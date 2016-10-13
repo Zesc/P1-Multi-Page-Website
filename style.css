@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300');
+
+body{
+    background: linear-gradient(to top, #141E30 , #243B55);
+    color: #d3d3d3;
+}
+
+.wrapper{
+    text-align: center;
+    color: #bbbbbb;
+    border-bottom: 2px solid #bbbbbb;
+    border-radius: 5px;
+}
+
+.wrapper > p{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+a{
+    color: #cd0000;
+    text-decoration: none;
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+    /*border-bottom: 1px solid #cd0000;*/
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: red;
+    border-radius: 5px;
+    color: lightgrey;
+}
+
+li{
+    /*padding: 10px;*/
+}
+
+li > p{
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
